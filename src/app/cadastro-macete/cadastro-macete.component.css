@@ -1,0 +1,21 @@
+.background-col {
+    background-image: url(/assets/fundo-livros.PNG);
+    height: 100%; /* Ajuste a altura conforme necessário */
+    background-position: center;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+}
+
+.btn-black:hover{
+    background-color: #101010;
+    color: white;
+    border-color: black;
+}
+
+btnHoverNone {
+    background-color: white;
+    color: black;
+}

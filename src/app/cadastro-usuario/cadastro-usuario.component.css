@@ -1,0 +1,80 @@
+.sidenav {
+    height: 100%;
+    background-image: url(https://img.freepik.com/fotos-gratis/design-de-colagem-para-o-dia-mundial-do-livro_23-2151313176.jpg);
+    /* background-image: url(https://img.freepik.com/fotos-premium/livros-e-globo-na-biblioteca-atras-da-mesa-turva-dia-mundial-do-livro_939992-1411.jpg); */
+    /* background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi9DawjT_8OoxUGM_TC0PPlvV5a7M46n_tPGIMQih6zZm-NeRr32gZZLYff-T4BlXWlOSHw9DPtpPYr1NSRMF5_wtPx0V6f2p81kS4IMLZgcPCcWeyc7LHclWrNQBafOXxrBKrzoSqerHP/s1600/bookpile28.jpg); */
+    /* background-image: url(https://m.media-amazon.com/images/I/7197cf-UzhL._AC_UF894,1000_QL80_.jpg); */
+    /* background-image: url(/assets/livros-background.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 260%;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 30%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 4%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 40%;
+    padding: 50px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-black:hover{
+    background-color: #101010;
+    color: white;
+    border-color: black;
+}
+    
+h1{
+    margin-top: 0%;
+}

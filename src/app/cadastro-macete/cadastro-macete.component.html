@@ -1,0 +1,104 @@
+<div class="row ">
+    <div class="col">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home">
+                                <img [src]="livros" alt="" width="45"
+                                    style="border-right: 2px solid rgb(216, 214, 214); padding-right: 15px;">
+                            </a>
+                        </li>
+                        <li>
+                            <h5><a class="nav-link" style="margin-left: 20px;">Cadastro de Macetes Escolares</a>
+                            </h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row background-col">
+
+            <div class="col-sm-2"></div>
+
+            <div class="col-sm-8" style="background-color: white;">
+                <h4 style="color: rgb(108, 108, 108); margin-left: 60px; margin-top: 30px;">Informações Necessárias</h4>
+                <div class="col-sm-10" style="margin: 20px 60px 1px;">
+                    <div class="login-form">
+                        <form id="formTabela" class="form-conatiner">
+                            <div class="row" style="margin-bottom: 10px;">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>Tipo do macete:</label>
+                                        <div class="dropdown-center d-grid gap-2" style="margin-top: 3px;">
+                                            <button class="btn btn-light dropdown-toggle form-control" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false"
+                                                style="border-color: rgb(223, 223, 223);">
+                                                Selecione um tipo
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Action two</a></li>
+                                                <li><a class="dropdown-item" href="#">Action three</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>Conteúdo:</label>
+                                        <div class="dropdown-center d-grid gap-2" style="margin-top: 3px;">
+                                            <button class="btn btn-light dropdown-toggle form-control" type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false"
+                                                style="border-color: rgb(223, 223, 223);">
+                                                Selecione um conteúdo
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Action two</a></li>
+                                                <li><a class="dropdown-item" href="#">Action three</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-bottom: 10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label>Título:</label>
+                                        <input type="text" class="form-control" placeholder="Título do Macete" value="" style="margin-top: 3px;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group" style="margin-bottom: 10px;">
+                                <label>Macete:</label>
+                                <textarea class="form-control" name="" id="" cols="111" rows="5"
+                                    placeholder="Descrição do Macete..." style="resize: none; margin-top: 3px;"></textarea>
+                            </div>
+
+                            <div class="form-group" style="margin-bottom: 15px;">
+                                <label>Composição:</label>
+                                <input type="text" name="composicao" class="form-control"
+                                    placeholder="Nome dos Compositores" style="margin-top: 3px;">
+                            </div>
+
+                            <div class="form-group" style="margin-bottom: 40px;">
+                                <label>Link de mídia (caso exista):</label>
+                                <input type="text" name="link" class="form-control" placeholder="Mídia" style="margin-top: 3px;">
+                            </div>
+
+                            <button class="btn btn-black" action="" style="padding-left: 50px; padding-right: 50px; margin-top: 20px; display: block; margin: 0 auto; margin-top: 30px;">Cadastrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-2"></div>
+
+        </div>
+    </div>
+</div>

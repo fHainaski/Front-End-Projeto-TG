@@ -1,0 +1,126 @@
+<app-menu></app-menu>
+
+<div class="txt">
+
+    <div class="main">
+        <div class="row">
+            <div class="col-sm-8">
+                <form>
+                    <h2><b>Ângulos Notáveis ao Som do Jingle Bells</b></h2>
+                    <h6>
+                        <b>TRIGONOMETRIA
+                        >
+                            TABELA TRIGONOMÉTRICA</b> 
+                        > 
+                        <a style="color: cornflowerblue"><b>MÚSICA<br/></b></a>
+                    </h6>
+
+                    <div class="post-people">
+                        <div class="left-profile">
+                            <div class="post-info">
+                                <span>
+                                    by<a style="color: red;"> Franciely Hainaski</a>
+                                </span>
+                            </div>
+                            <span class="share"></span>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <h5>1, 2, 3 <br><br>
+
+                        3, 2, 1 <br><br>
+
+                        Tudo sobre 2 <br><br>
+
+                        Não se esqueça da raiz no 3 e no 2 <br><br>
+
+                        A tangente é diferente, vejam só vocês! <br><br>
+
+                        Raiz de 3 sobre 3 <br><br>
+
+                        1, raiz de 3
+                    </h5>
+
+                </form>
+
+                <br>
+                <br>
+
+                <h5><b>Comentários</b></h5>
+
+                <form id="teste">
+                    <textarea name="" id="" cols="106" rows="1" placeholder="Adicione um comentário..." style="resize: none; border-top: none; border-left: none; border-right: none;"></textarea>
+                    <div class="row">
+                        <div class="col-sm-10"></div>
+                        <div class="col-sm-2" style="text-align: right;">
+                            <button value="Enviar" class="comentar-button">Comentar</button>
+                        </div>
+                    </div>
+                </form>
+
+                <br>
+
+                <div class="card col-sm-12" style="padding-left: 20px; padding-top: 20px;">
+                    <form id="formListaComentarios">
+                        <!-- #{comentarioControle.atualizaLista()}  -->
+                        <!-- <ui:repeat value="#{comentarioControle.lista}" var="aux"> -->
+                        <div class="commant-text row">
+                            <div class="col-lg-10 col-md-10 col-sm-8 col-xs-hidden">
+                                <h5><b>Carlinhos</b></h5>
+                                <p><span class="c_date">12-03-24</span> 
+                                    | 
+                                    <span><a style="color: cornflowerblue">Resposta</a></span>
+                                    |
+                                    <span style="display: inline-block;">
+                                        <div class="star-container">
+                                            <span class="star-icon" *ngFor="let i of [0, 1, 2, 3, 4];"
+                                                  [ngClass]="{ 'ativo': activeStarIndex === i, 'star-icon-large': true }"
+                                                  (click)="handleClick($event)">
+                                            </span>
+                                        </div>
+                                    </span>
+                                </p>
+                                <p class="msg">Muito bom, parabéns!</p>
+                            </div>
+                        </div>
+                        <hr style="width: 95%;">
+                        <div class="commant-text row">
+                            <div class="col-lg-10 col-md-10 col-sm-8 col-xs-hidden">
+                                <h5><b>Maya</b></h5>
+                                <p><span class="c_date">01-02-24</span> 
+                                    | 
+                                    <span><a style="color: cornflowerblue">Resposta</a></span>
+                                    |
+                                    <span style="display: inline-block;">
+                                        <div class="star-container">
+                                            <span class="star-icon" *ngFor="let i of [0, 1, 2, 3, 4];"
+                                                  [ngClass]="{ 'ativo': activeStarIndex === i, 'star-icon-large': true }"
+                                                  (click)="handleClick($event)">
+                                            </span>
+                                        </div>
+                                    </span>
+                                </p>
+                                <p class="msg">Ameeii ^-^</p>
+                            </div>
+                        </div>
+                        <br/>
+                        <!-- </ui:repeat> -->
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <iframe style="margin-top: 30px;" width="500" height="255" src="https://www.youtube.com/embed/2Efe8kqCZEQ?si=4OEM-KPQ4MT1GYn6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <video width="320" height="240" controls  style="margin: 0px 0px 80px">
+                    <source src="https://youtu.be/HHjuKRHEuu4.mp4" type="video/mp4">
+                    <source src="https://youtu.be/HHjuKRHEuu4.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video> -->
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>

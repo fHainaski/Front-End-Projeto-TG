@@ -1,0 +1,42 @@
+<div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="card col-sm-4"
+            style="margin-top: 110px; background-color: #f0f2f5; border: 1px solid rgb(199, 199, 201);">
+            <div class="card-body">
+                <form class="form-sign" action="Validar" method="POST">
+                    <div class="form-group text-center" style="margin-bottom: 50px; margin-top: 20px;">
+                        <img [src]="livros" alt="" width="50" style="padding-bottom: 10px; margin-right: 10px;" />
+                        <strong><a class="nav-link" href="home" name="cadastroLink" style="display: inline-block;"><label style="font-size: 30px;">Recursos Escolares</label></a></strong>
+                    </div>
+
+                    <div class="input-group mb-3" style="padding-bottom: 20px;">
+                        <span class="input-group-text" id="basic-addon1" style="border: 1px solid rgb(160, 160, 161);">
+                            <img [src]="usuario" alt="" width="20" />
+                        </span>
+                        <input type="text" name="email" class="form-control" placeholder="example@gmail.com"
+                            style="border: 1px solid rgb(160, 160, 161);">
+                    </div>
+
+                    <div class="input-group mb-3" style="padding-bottom: 30px;">
+                        <span class="input-group-text" id="basic-addon1" style="border: 1px solid rgb(160, 160, 161);">
+                            <img [src]="cadeado" alt="" width="20" />
+                        </span>
+                        <input type="password" name="senha" class="form-control" placeholder="Senha"
+                            style="border: 1px solid rgb(160, 160, 161);">
+                    </div>
+
+                    <input type="submit" name="action" value="Logar" class="btn btn-primary btn-block"
+                        style="border: 1px solid rgb(149, 153, 178);  padding-left: 125px; padding-right: 125px; display: block; margin: 0 auto; margin-bottom: 40px;">
+
+                    <hr>
+
+                    <div style="text-align: center; margin-bottom: 5px;"><label>Não possui um cadastro?</label></div>
+                    <button class="btn btn-secondary" name="cadastroButton"
+                        style="padding-left: 50px; padding-right: 50px; margin-top: 5px; display: block; margin: 0 auto; margin-bottom: 15px; border: 1px solid rgb(119, 119, 119);"><a
+                            class="nav-link" href="cadastro-usuario" name="cadastroLink">Cadastrar-se</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

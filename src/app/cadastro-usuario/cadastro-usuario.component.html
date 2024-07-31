@@ -1,0 +1,99 @@
+<head>
+    <title>Cadastro Usuario</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"/>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+      
+<div class="sidenav">
+    <div class="login-main-text">
+  
+    </div>
+</div>
+
+<div class="main">
+    <div class="card col-sm-8" style="margin-top: 60px; margin-left: 50px;">
+        <div class="text-center" style="margin-top: 20px;">
+            <img [src]="livros" alt="" width="50" style="padding-bottom: 5px;"/>
+            <strong><a class="nav-link" href="home" name="cadastroLink" style="display: inline-block;"><label style="font-size: 30px;">Recursos Escolares</label></a></strong>
+        </div>
+
+        <div class="col-sm-12">
+            <div class="login-form">
+                <form id="formTabela" class="form-conatiner">
+                    <div class="form-group">
+                        <label>Nome Completo:</label>
+                        <input type="text" class="form-control" placeholder="Nome completo">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Data de Nascimento:</label>
+                                <input type="date" class="form-control" placeholder="Data de nascimento" value="">
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Estado:</label>
+                                <input type="text" class="form-control" placeholder="Estado" value="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Ocupação:</label>
+                        <input type="text" class="form-control" placeholder="Ocupação" value="">
+                    </div>
+
+                    <label>Email:</label>
+                    <div class="input-group mb-3" style="padding-bottom: 0px;">
+                        <span class="input-group-text" id="basic-addon1">
+                            <img [src]="usuario" alt="" width="20"/>
+                        </span>
+                        <input type="text" name="email" class="form-control" placeholder="example@gmail.com">
+                    </div>
+
+                    <label>Senha:</label>   
+                    <div class="input-group mb-3" style="padding-bottom: 20px;">
+                        <span class="input-group-text" id="basic-addon1">
+                            <img [src]="cadeado" alt="" width="20"/>
+                        </span>
+                        <input type="password" name="senha" class="form-control" placeholder="senha">
+                    </div>
+
+                    <button class="btn btn-black" action="" style="padding-left: 50px; padding-right: 50px; margin-top: 5px; display: block; margin: 0 auto; margin-bottom: 15px;">Cadastrar</button>                  
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+  <!--<h:form id="formTabela">
+      <p:panelGrid columns="2">
+          <p:outputLabel value="Nome Completo"/>
+          <p:inputText value="#{usuarioControle.usuario.nomeUsuario}"/>
+          
+          <p:outputLabel value="Data de Nascimento"/>
+          <p:inputText value="#{usuarioControle.usuario.dataNascUsuario}"/>
+          
+          <p:outputLabel value="Cidade"/>
+          <p:inputText value="#{usuarioControle.usuario.cidadeUsuario}"/>
+          
+          <p:outputLabel value="Ocupacao"/>
+          <p:inputText value="#{usuarioControle.usuario.ocupacao}"/>
+          
+          <p:outputLabel value="Email"/>
+          <p:inputText value="#{usuarioControle.usuario.email}"/>
+          
+          <p:outputLabel value="Senha"/>
+          <p:inputText value="#{usuarioControle.usuario.senha}"/>
+      </p:panelGrid>
+      <p:commandButton value="Finalizar cadastro" action="#{usuarioControle.salvar()}"/>
+  </h:form>-->
+  
+
+
